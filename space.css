@@ -1,0 +1,13 @@
+/* Set the font family for the entire body of the HTML document.
+   It specifies a fallback font stack if 'Courier New' is not available. */
+   body {
+    font-family:'Courier New', Courier, monospace;
+    /* Center-align text within the body */
+    text-align: center;
+}
+
+/* Style for the element with the id "board" (possibly a game board).
+   Set the background color to black. */
+#board {
+    background-color: black;
+}
